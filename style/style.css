@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left:0px;
+    top:0px;
+    width: 100%;
+    background-color: #fff1d3;
+}
+
+nav {
+    background-color:#ffae00;
+    width: 100%;
+    text-align: center;
+    top:200px;
+    padding:5px;
+    left:0px;
+    color:black;
+    transition: all 0.3s ease;
+    position: fixed;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+}
+
+nav a:active {
+    transform: scale(0.9);
+}
+
+.botao {
+    background-color: #ffae00;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.botao:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1);
+}
+
+.botao:active {
+    transform: scale(0.9);
+    filter: brightness(0.9);
+}
