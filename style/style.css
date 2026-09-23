@@ -12,6 +12,7 @@ header {
     top:0px;
     width: 100%;
     background-color: #fff1d3;
+    z-index: 1000;
 }
 
 nav {
@@ -24,6 +25,7 @@ nav {
     color:black;
     transition: all 0.3s ease;
     position: fixed;
+    box-shadow: -5px 4px 20px rgba(0, 0, 0, 0.5);
 }
 
 nav a {
@@ -38,6 +40,10 @@ nav a:hover {
 
 nav a:active {
     transform: scale(0.9);
+}
+
+main img {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
 }
 
 .botao {
